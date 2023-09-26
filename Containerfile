@@ -1,4 +1,4 @@
-FROM ghcr.io/forem/ruby:3.1.4@sha256:d072fde5b0bb0f1374e308f7fcf1283e379e2a28a61f6e56df87b25a7dfdd5bf as base
+FROM ghcr.io/forem/ruby:3.2.0@sha256:a872ecb3a42d3aa9487b4b10ae80f21672331141897492090057c3514f7774ff as base
 
 FROM base as builder
 
